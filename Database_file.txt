@@ -1,0 +1,38 @@
+create database DIT_UNIVERSITY;
+use DIT_UNIVERSITY;
+create table Vehicle_information(Registration_no Varchar(20), Name Varchar(20), Sap_ID 
+Varchar(12), Contact_No bigint, Local_Address Varchar(50));
+insert into Vehicle_information values ('UKO7_8271','Bob 
+joshi','1000015223','9772553525','PremNagri,Dehradun'),
+('UK06_BA3253','Shradha uniyal','1000016632','6377328835','Rajpur,Dehradun'),
+('UK07_CQ7736','Prakhar Mishra','1000026611','7077352552','Ballupur chowk, Dehradun'),
+('UK08_GW6378','Prasoon Arya','1000026631','6388266399','Clement Town, Dehradun'),
+('UK07_AE5537','Abhinav Kumar','1000024433','9773462665','Patelnagar, Dehradun'),
+('UK04_SQ4426','Shoib ali','1000026162','9897155253','Dhobi ghat, Mussoorie'),
+('UP23_DP7362','Ron jos','1000032382','6377284627','Near Paltan, Dehradun'),
+('BR32_FF6482','Shikha sharma','1000022773','9663774626','EC Road, Dehradun'),
+('PB17_FS6543','Naman Singh','1000016253','7448836264','Purukul, Dehradun'),
+('UP34_MS5277','Saurabh pandey','1000025643','8773883726','Malsi, Dehradun'),
+('UP52_KS5364','Divyam saxena','1000035246','8836623772','officer colony, Dehradun'),
+('BR21_KK8382','Yuvraj joshi','1000016173','7266188372','Amoun Colony, Dehradun'),
+('UP31_LR3321','Devendra kumar','1000033132','9882667731','Near Mandi, Dehradun'),
+('UK06_QM5526','Arnav rathi','1000036618','8772516632','Imperial Kutalgaon, Dehradun'),
+('UK07_RO3621','Vivek kumar','1000036621','9277737136',' G.L Road, Dehradun'),
+('UK08_WL3991','Mukesh kukreti','1000016627','9972651553','Ballupur, Dehradun'),
+('HR22_QP7262','Pavan Jethi','1000026617','8777297731','Subhasnagar, Dehradun'),
+('HP07_EW8726','Shubham Dixit','1000038239','8100387261','Near Gandhi park, Dehradun'),
+('BR21_TT9302','Altamash khan','1000039952','6819921772','Golden Manor Kutalgaon, 
+Dehradun'),
+('HR32_RE8829','Elvish chauhan','1000049249','6299103717','Mukti Nagar, Dehradun'),
+('CH01_EH7268','Rocky Singh','1000037722','7299991662','Pratapur, Dehradun'),
+('UK01_ER8271','Vishal pandey','1000031810','9637718290','Near IT park, Dehradun'),
+('UP42_PP9382','Yash Singhal','1000088538','6329918819','Ballupur,Dehradun'),
+('UP06_QW8822','Vishvas dubey','1000047199','7881002810','Malsi, Dehradun'),
+('UK08_EU8299','Vishu desai','1000031120','8990741129','Vikasnagar, Dehradun'),
+('UK06_TH7739','Abhinav pandey','1000012599','8839173217','EC Road , Dehradun'),
+('UP41_GL1772','Pari kumar','1000021268','7288191228','Near Tapkeshwar Temple, 
+Dehradun'),
+('UK03_YS1992','Riya Zufisa','1000015772','7299937177','Kantipuram , Dehradun'),
+('UP21_TH6277','Saniya John','1000028818','8299900281','Arteres Malsi, Dehradun'),
+('JK09_KT7728','Ayaan Ali','1000037701','9288127778','Clement Town, Dehradun');
+select * from Vehicle_information;
